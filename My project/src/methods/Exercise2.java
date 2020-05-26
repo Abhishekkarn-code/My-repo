@@ -8,9 +8,7 @@ public class Exercise2 {
 		try(Scanner sc = new Scanner(System.in))
 		{
 			System.out.println("Enter three value");
-			int a= sc.nextInt();
-			int b= sc.nextInt();
-			int c= sc.nextInt();
+			
 			
 			float result = getAverage(a,b,c);
 			System.out.println(result+" is average of three values");
